@@ -7,9 +7,6 @@ services:
     - docker
     - postgresql
 
-addons:
-    postgresql: 10
-
 env:
     global:
         # must match the value in build_libpq.sh and build_libpq_macos.sh
